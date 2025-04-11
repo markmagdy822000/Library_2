@@ -1,0 +1,35 @@
+body {
+  font-size: 10px;
+}
+* {
+  margin: 0;
+  padding: 0;
+}
+
+/*=========== initial Form =========== */
+.intialForm {
+  input {
+    width: 10rem;
+    height: 2em;
+    margin: -10px 5px;
+  }
+
+  label {
+    font-size: 2.1rem;
+  }
+  button {
+    font-size: 1.3rem;
+    font-weight: 700;
+    width: 7rem;
+    height: 2rem;
+    padding: 0.2rem;
+    background-color: aqua;
+    border-style: none;
+    border-radius: 5px;
+  }
+}
+
+[class|="invalid"] {
+  color: red;
+  display: none;
+}
