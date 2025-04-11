@@ -7,9 +7,6 @@ window.addEventListener("load", () => {
         e.preventDefault();
         var numOfBooks = numOfBooksInput.value;
         buildRegisterForm(Number(numOfBooks))
-
-
     })
-
 })
 

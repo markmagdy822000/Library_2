@@ -97,7 +97,7 @@ function saveFormData(numOfBooks, author, bookNameIn, bookPriceIn, authEmailIn, 
     console.log("book", book)
     console.log("author", author)
     if (numOfBooks === author.getBooksNum()) {
-        buildResultTable()
+        buildResultTable(author)
     }
     console.log("numOfBooks", numOfBooks)
 }

@@ -9,7 +9,6 @@ var Author = function (_name, _email) {
     Author.prototype.getBooksNum = function (book) {
         return this.books.length;
     }
-
     Author.prototype.toString = function () {
         return `
 name: ${this.name}

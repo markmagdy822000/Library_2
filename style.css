@@ -33,3 +33,14 @@ body {
   color: red;
   display: none;
 }
+
+table {
+  width: 90%;
+  margin: 10% auto;
+  td,
+  th {
+    border: 1px solid black;
+    margin: 10% auto;
+    width: 90%;
+  }
+}
